@@ -1,9 +1,0 @@
-{
-    "env": {
-        "DB_USER": "admin",
-        "DB_PASSWORD": "If0DBBC6i2cW8xXO",
-        "DB_NAME": "mern_course",
-        "GOOGLE_API_KEY": "AIzaSyCxf1kOeZZJDZBeywHSvO7nimD9mholxJk",
-        "JWT_KEY": "omg_theCapipo_car_is_sehr_schon"
-    }
-}
