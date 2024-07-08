@@ -1,5 +1,6 @@
 const { default: axios } = require("axios")
 const HttpError = require("../models/http-error")
+require("dotenv").config()
 
 const API_KEY = process.env.GOOGLE_API_KEY
 
