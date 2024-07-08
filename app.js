@@ -48,6 +48,8 @@ app.use((error, req, res, next) => {
     .json({ message: error.message || "An unknown error ocurred!" })
 })
 
+console.log("running with user:" + process.env.DB_USER)
+
 mongoose
   .connect(
     `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.81lugfw.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority&appName=Cluster0`
